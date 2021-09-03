@@ -28,20 +28,6 @@ const Link = styled.a`
 export const Social = () => {
   return (
     <Container>
-      <Link href="https://www.instagram.com/micky_ballard" target="_blank">
-        <FontAwesomeIcon
-          className="under"
-          icon={["fab", "instagram"]}
-          size="2x"
-          color="grey"
-        />
-        <FontAwesomeIcon
-          className="over"
-          icon={["fab", "instagram"]}
-          size="2x"
-          color="rgb(220, 41, 123)"
-        />
-      </Link>
       <Link href="https://github.com/MickyBizzle" target="_blank">
         <FontAwesomeIcon
           className="under"
